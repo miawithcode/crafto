@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="md:text-md max-w-prose leading-tight tracking-tight text-textMuted lg:text-lg">
             <p>
               Handpicked high-quality design resources that assist you in
-              developing stunning websites, even without a designer in team.
+              making beautiful websites, even without a designer in team.
             </p>
           </div>
         </div>
