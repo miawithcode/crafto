@@ -3,6 +3,7 @@ import "./globals.css";
 import { AppProvider } from "@/context/context";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/sections/Navbar/Navbar";
+import Hero from "@/components/sections/Hero/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,11 @@ export default function RootLayout({ children }) {
         <AppProvider>
           <main className="relative flex min-h-screen flex-col">
             <Navbar />
-            {children}
+            <div className="flex-grow flex-1">
+              <Hero />
+              <section>{children}</section>
+            </div>
+            {/* <Footer /> */}
           </main>
         </AppProvider>
       </body>
