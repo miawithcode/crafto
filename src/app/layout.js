@@ -6,6 +6,7 @@ import Navbar from "@/components/sections/Navbar/Navbar";
 import Hero from "@/components/sections/Hero/Hero";
 import Container from "@/components/container/Container";
 import Categories from "@/components/sections/Categories/Categories";
+import Footer from "@/components/sections/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,7 +48,7 @@ export default function RootLayout({ children }) {
                 </Container>
               </section>
             </div>
-            {/* <Footer /> */}
+            <Footer />
           </main>
         </AppProvider>
       </body>
