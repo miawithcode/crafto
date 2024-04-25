@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import {
   CodeBracketIcon,
+  CogIcon,
   CursorArrowRaysIcon,
   DocumentTextIcon,
   EyeDropperIcon,
@@ -45,6 +46,9 @@ const Category = ({ category, counts }) => {
         )}
         {categoryId === "ui-elements" && (
           <CodeBracketIcon className="h-6 w-6 pr-1" />
+        )}
+        {categoryId === "css-generator" && (
+          <CogIcon className="h-6 w-6 pr-1" />
         )}
         {categoryId === "icon" && <PuzzlePieceIcon className="h-6 w-6 pr-1" />}
         {categoryId === "svg" && (
