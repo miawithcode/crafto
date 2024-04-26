@@ -10,6 +10,7 @@ import {
   PuzzlePieceIcon,
   SparklesIcon,
   SquaresPlusIcon,
+  WrenchScrewdriverIcon,
 } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import { usePathname, useRouter } from "next/navigation";
@@ -59,7 +60,7 @@ const Category = ({ category, counts }) => {
           <DocumentTextIcon className="h-6 w-6 pr-1" />
         )}
         {categoryId === "toolkit" && (
-          <SquaresPlusIcon className="h-6 w-6 pr-1" />
+          <WrenchScrewdriverIcon className="h-6 w-6 pr-1" />
         )}
         {label}
         {count && (
