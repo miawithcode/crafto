@@ -10,7 +10,7 @@ const Footer = () => {
   const { openModal } = useAppContext();
 
   return (
-    <footer className="relative bg-bgBlack py-16 text-white">
+    <footer className="relative bg-bgBlack py-16 mt-8 md:mt-16 text-white">
       <Container>
         <div className="flex flex-wrap justify-between gap-12 pb-6">
           <div>
