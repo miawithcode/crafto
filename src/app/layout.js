@@ -18,7 +18,7 @@ export const metadata = {
       "en-US": "/en-US",
     },
   },
-  title: "Crafto - Empowering frontend developers to build aesthetic websites.",
+  title: "Crafto - Empowering frontend developers to build aesthetic websites",
   description:
     "Handpicked high-quality design resources that assist you in developing stunning websites, even without a designer in team.",
 };
