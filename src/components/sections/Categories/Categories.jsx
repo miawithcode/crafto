@@ -7,7 +7,7 @@ const Categories = async () => {
     const { counts } = await getResourceCountsByCategory();
 
   return (
-    <div className="no-scrollbar flex flex-row items-start justify-start overflow-x-auto md:flex-col md:justify-center">
+    <div className="no-scrollbar sticky top-0 flex flex-row items-start justify-start overflow-x-auto md:top-4 md:flex-col md:justify-center">
       {categories.map((category) => {
         return (
           <Category key={category.sys.id} category={category} counts={counts} />
