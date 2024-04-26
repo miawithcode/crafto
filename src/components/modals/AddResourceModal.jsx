@@ -8,7 +8,7 @@ const AddResourceModal = () => {
 
   return (
     <div className="fixed inset-0 z-[99] grid h-full w-full place-content-center bg-white/30 backdrop-blur-md">
-      <div className="relative w-[60vw] max-w-[600px] rounded-lg bg-white p-8 shadow-lg">
+      <div className="relative w-[90vw] xs:w-[80vw] sm:w-[60vw] max-w-[600px] rounded-lg bg-white p-8 shadow-lg">
         <div className="flex w-full justify-end">
           <button onClick={closeModal}>
             <XMarkIcon className="h-6 w-6" />
