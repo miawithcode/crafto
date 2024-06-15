@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 import Container from "@/components/container/Container";
-import LogoWhite from "@/components/svgs/LogoWhite";
+import LogoWhite from "@/components/icons/LogoWhite";
 import { useAppContext } from "@/context/context";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
@@ -10,7 +10,7 @@ const Footer = () => {
   const { openModal } = useAppContext();
 
   return (
-    <footer className="relative bg-bgBlack py-16 mt-8 md:mt-16 text-white">
+    <footer className="relative mt-8 bg-bgBlack py-16 text-white md:mt-16">
       <Container>
         <div className="flex flex-wrap justify-between gap-12 pb-6">
           <div>
@@ -89,5 +89,5 @@ const Footer = () => {
       </Container>
     </footer>
   );
-}
-export default Footer
+};
+export default Footer;

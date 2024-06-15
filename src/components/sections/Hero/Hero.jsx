@@ -1,5 +1,5 @@
 import Container from "@/components/container/Container";
-import LogoNoBg from "@/components/svgs/LogoNoBg";
+import LogoNoBg from "@/components/icons/LogoNoBg";
 
 const Hero = () => {
   return (
@@ -21,13 +21,13 @@ const Hero = () => {
 
           <div className="md:text-md max-w-prose leading-tight tracking-tight text-textMuted lg:text-lg">
             <p>
-              Handpicked high-quality design resources that assist you in
-              making beautiful websites, even without a designer in team.
+              Handpicked high-quality design resources that assist you in making
+              beautiful websites, even without a designer in team.
             </p>
           </div>
         </div>
       </Container>
     </section>
   );
-}
-export default Hero
+};
+export default Hero;

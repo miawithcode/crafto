@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import LogoBlack from "@/components/svgs/LogoBlack";
+import LogoBlack from "@/components/icons/LogoBlack";
 import { useAppContext } from "@/context/context";
 import Container from "@/components/container/Container";
 import AddResourceButton from "@/components/buttons/AddResourceButton";
